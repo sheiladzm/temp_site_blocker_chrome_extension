@@ -1,0 +1,9 @@
+{
+  "name": "Temp Site Blocker",
+  "version": "1.0.0",
+  "description": "Temporarily and quickly block or allow yourself to access a list of websites using a toggle bar.",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}

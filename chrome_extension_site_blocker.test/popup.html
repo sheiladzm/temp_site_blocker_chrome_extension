@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Temp Site Blocker</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="dist/css/popup.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="title">Temp Site Blocker</h1>
+      <div class="buttons">
+        <button type="button" class="state-off">Off</button>
+        <button type="button" class="state-on">On</button>
+      </div>
+      <div class="sites">
+        <p>
+          List the websites you want to temporarily block below, one
+          per line:
+        </p>
+        <textarea
+          rows="8"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+          spellcheck="false"
+        ></textarea>
+      </div>
+      <button type="button" class="state-save">Save List</button>
+    </div>
+  </body>
+</html>
