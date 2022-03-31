@@ -1,7 +1,7 @@
 body {
   width: 256px;
   margin: 12px 24px 16px;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: #3d3d3d;
   -webkit-font-smoothing: anti-aliased;
 }
@@ -18,8 +18,7 @@ body {
   border: 1px solid #5bf8c4;
   color: #5bf8c4;
 }
-.buttons > button.state-on.is-active,
-.buttons > button.state-on:hover {
+.buttons > button.state-on.is-active, .buttons > button.state-on:hover {
   border: 1px solid #5bf8c4;
   background-color: #5bf8c4;
   color: #fff;
@@ -36,8 +35,7 @@ body {
   border: 1px solid #d6dbd9;
   color: #d6dbd9;
 }
-.buttons > button.state-off.is-active,
-.buttons > button.state-off:hover {
+.buttons > button.state-off.is-active, .buttons > button.state-off:hover {
   border: 1px solid #d6dbd9;
   background-color: #d6dbd9;
   color: #fff;
@@ -92,7 +90,7 @@ button.state-save:focus {
 }
 .sites textarea {
   width: 100%;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 700;
   border: 0;
   background: #a5f9dd;
